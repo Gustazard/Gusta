@@ -1,0 +1,17 @@
+*{
+    margin: 0; 
+    top: 0;
+    box-sizing: border-box; /*O box-sizing: border-box garante que o padding seja incluído no cálculo da largura, evitando que o conteúdo ultrapasse a tela.*/
+}
+
+html{
+width: 100%;
+height: 100vh;
+}
+
+header{
+    padding: min(5vh, 4rem); /*Ajustando o paddin/cabeçalho para ser flexível */
+    background-color: #1b1b1e;
+    width: 100%; /* Alteramos de 100vw para 100% */
+    display: flex; 
+}
