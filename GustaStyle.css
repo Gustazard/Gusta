@@ -1,17 +1,46 @@
-*{
-    margin: 0; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* O box-sizing: border-box garante que o padding seja incluído no cálculo da largura, evitando que o conteúdo ultrapasse a tela. */
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    padding: min(5vh, 4rem); /* Ajustado o padding para ser mais flexível */
+    background-color: #08312A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
     top: 0;
-    box-sizing: border-box; /*O box-sizing: border-box garante que o padding seja incluído no cálculo da largura, evitando que o conteúdo ultrapasse a tela.*/
+    left: 0;
+    z-index: 999; /* Define a prioridade de aparecer na frente dos objetos */
 }
 
-html{
-width: 100%;
-height: 100vh;
+header button{
+    width: 10em;
+    height: 2.3em;
+    background-color: #B19669;
+    color: white;
+    border-radius: 5%;
+    border-color: #08312A;
+    font-size: 0.9em;
+    padding: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header{
-    padding: min(5vh, 4rem); /*Ajustando o paddin/cabeçalho para ser flexível */
-    background-color: #1b1b1e;
-    width: 100%; /* Alteramos de 100vw para 100% */
-    display: flex; 
+header i{
+    color: #B19669; 
+    font-size: 2em;
+    cursor: pointer; /*APRENDER A MEXER NO PONTEIRO DO MOUSE*/
 }
+
+

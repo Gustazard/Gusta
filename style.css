@@ -11,7 +11,7 @@ html {
 }
 
 header {
-    padding: min(5vh, 4rem); /* Ajustado o padding para ser mais flexível */
+    padding: min(5vh, 4rem);    
     background-color: #204b5e;
     width: 100%; /* Alteramos de 100vw para 100% */
     display: flex;
