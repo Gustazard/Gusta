@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* "margin/padding" para não haver bordas na tela */
+    box-sizing: border-box;
+    /* O box-sizing: border-box garante que o padding seja incluído no cálculo da largura, evitando que o conteúdo ultrapasse a tela. */
+}
+
+header{
+    background-color: #035E49;
+    color: white;
+}
